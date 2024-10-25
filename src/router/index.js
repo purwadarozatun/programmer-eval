@@ -5,7 +5,7 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/git-level',
+      path: '/programmer-eval/git-level',
       mode: 'history',
       name: 'quis',
       component: QuizView,
