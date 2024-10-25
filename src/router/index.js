@@ -6,6 +6,7 @@ const router = createRouter({
   routes: [
     {
       path: '/git-level',
+      mode: 'history',
       name: 'quis',
       component: QuizView,
     },
